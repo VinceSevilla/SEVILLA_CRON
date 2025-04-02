@@ -1,9 +1,9 @@
 name: Log Time Job
 
 on:
-  schedule:
+  schedule: 
     - cron: "*/1 * * * *" 
-
+  workflow_dispatch:
 jobs:
   log_time:
     runs-on: ubuntu-latest
